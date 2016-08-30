@@ -1,0 +1,22 @@
+{
+  "name": "tap-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idhere703/blue-diamond.git"
+  },
+  "author": "Brandon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idhere703/blue-diamond/issues"
+  },
+  "homepage": "https://github.com/idhere703/blue-diamond#readme",
+  "dependencies": {
+    "webpack": "^1.13.2"
+  }
+}
