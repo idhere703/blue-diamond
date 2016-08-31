@@ -1,10 +1,10 @@
-var webpack = require('webpack');
-var path = require('path');
+let webpack = require('webpack');
+let path = require('path');
 
-var BUILD_DIR = path.resolve(__dirname, './deploy');
-var APP_DIR = path.resolve(__dirname, './app');
+let BUILD_DIR = path.resolve(__dirname, './deploy');
+let APP_DIR = path.resolve(__dirname, './app');
 
-var config = {
+let config = {
   entry: APP_DIR + '/app.js',
   output: {
     path: BUILD_DIR,
