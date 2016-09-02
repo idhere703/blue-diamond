@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import MainSearch from './src/mainSearch'
+console.log(MainSearch);
 class App extends React.Component {
   render () {
-    return <p> Hello React!</p>;
+    return <MainSearch/>;
   }
 }
 
