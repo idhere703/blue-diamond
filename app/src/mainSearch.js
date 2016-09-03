@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 
 class MainSearch extends React.Component {
   render() {
-    return null;
+    return <div><input type="text" placeholder="Search for an Org" /></div>;
   }
 }
 
-module.exports = MainSearch;
+export default MainSearch;
