@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainSearch from './src/mainSearch'
-console.log(MainSearch);
+import MainSearch from './src/mainSearch';
+
 class App extends React.Component {
   render () {
     return <MainSearch/>;
