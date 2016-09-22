@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/webpack -d --watch",
     "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "build": "./node_modules/.bin/webpack -d && sh deploy.sh"
   },
   "repository": {
     "type": "git",
