@@ -11,15 +11,21 @@ let config = {
         filename: '/bundle.js'
     },
     module: {
-        loaders: [{
+        loaders: [
+          {
             test: /\.js?/,
             include: APP_DIR,
             loader: 'babel'
-        },
-        {
-          test: /\.json$/,
-          loader: 'json'
-        },]
+          },
+          {
+            test: /\.json$/,
+            loader: 'json'
+          },
+          {
+            test: /\.css$/,
+            loader: "style-loader!css-loader"
+          },
+      ]
     }
 };
 
