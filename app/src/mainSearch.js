@@ -7,7 +7,7 @@ class MainSearch extends React.Component {
   render() {
 
     let content = (
-      <div>
+      <div className="container">
         <input type="text" placeholder="Search for an Org" />
 
         <ul>
