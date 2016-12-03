@@ -5,7 +5,8 @@ import TestOrgs from '../data/testOrgs';
 
 class MainSearch extends React.Component {
   render() {
-    return (
+
+    let content = (
       <div>
         <input type="text" placeholder="Search for an Org" />
 
@@ -16,6 +17,8 @@ class MainSearch extends React.Component {
         </ul>
       </div>
     );
+
+    return content;
   }
 }
 
